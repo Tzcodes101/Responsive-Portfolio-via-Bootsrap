@@ -3,6 +3,12 @@
     border-bottom: 2px solid black;
 }
 
+.img-style {
+    margin: auto;
+    height: auto;
+    width: 400px;
+}
+
 footer {
     border-top: 2px solid black;
     padding: 4%;
