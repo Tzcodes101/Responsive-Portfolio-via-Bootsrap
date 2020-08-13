@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Contact Form</title>
 
     <!--Link to Bootsrap CSS stylesheet-->
@@ -15,13 +15,49 @@
     <!--400px (sm) takes up entire screen, 768px (md) has margins, 992px (lg) has greater margins-->
 
     <!--NavBar with name and drop down menu to index and portfolio-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Talia Zisman</a>
+        </div>
+    </nav>
 
-    <!--Card with 1 row and 1 column-->
-        <!--Card with heading of Contact-->
-        <!--Input for name, e-mail, and message-->
-        <!--Submit button-->
+    <!--Card with heading, form, and submit button-->
+    <div class="card">
+            
+        <!--Card heading-->
+        <div class="card-header">
+            <h3>Contact</h3>
+        </div>
+           
+        <form class="card-body" class="card-text">
+                
+            <!--Input name-->
+            <div class="form-row">
+                <div class="col">
+                    <label>Name</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div> <br>
+                
+            <!--Input email-->
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+                
+            <!--Input message-->
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+                    
+            <!--Submit button-->
+            <button type="button" class="btn btn-dark">Submit</button>
+
+        </form>
+    </div>
 
     <!--Footer of 1 row-->
-    
+    <footer></footer>
 </body>
 </html>
