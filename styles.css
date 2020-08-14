@@ -10,11 +10,18 @@
     margin-bottom: 3rem;
 }
 
-/* .card-columns {
-    @include media-breakpoint-only(lg) {
-      column-count: 5;
-    }
-} */
+.arwin2 {
+    float: left;
+    margin: 1rem 1rem 1rem 1rem;
+    margin-top: ;
+    height: 20rem;
+    width: 15rem;
+}
+
+.card-text {
+    clear: right;
+}
+
 
 .img-style {
     margin: auto;
