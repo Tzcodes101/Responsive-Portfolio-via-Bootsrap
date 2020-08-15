@@ -1,3 +1,6 @@
+body{
+    background-color: lavender;
+}
 
 .navbar {
     border-bottom: 2px solid black;
@@ -5,39 +8,37 @@
     justify-content: space-between;
 }
 
+.navbar-brand {
+    font-weight: 600;
+}
+
 .card {
     margin-top: 3rem;
     margin-bottom: 3rem;
+    border: 1px solid black;
 }
 
 .arwin2 {
     float: left;
-    margin: 1rem 1rem 1rem 1rem;
-    margin-top: ;
+    margin: 0 1rem 1rem 0;
     height: 20rem;
     width: 15rem;
 }
 
-.card-text {
-    clear: right;
-}
-
-
-.img-style {
-    margin: auto;
+.img-fluid {
+    width: 100%/9;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-bottom: 1rem;
     height: auto;
-    width: 350px;
+    width: 12rem;
 }
-
-.images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
- }
 
 footer {
         border-top: 2px solid black;
         padding: 2rem;
         text-align: center;
+        opacity: 75%;
+        background-color: grey;
 }
+

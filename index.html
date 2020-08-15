@@ -19,9 +19,15 @@
 <body>
     <!--NavBar with name and drop down menu to contact and portfolio-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Arwin the Aussiepoo</a>
+        <h1 class="navbar-brand">Arwin the Aussiepoo</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                </div>
+              </div>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
@@ -32,31 +38,33 @@
     </nav>
 
     <!--Activate grid system-->
-    <div class="container">
+    <section class="container">
         <div class="row">
             <!--Set responsive layout-->
-            <div class="col-lg-5 col-md-9 col-xs-12">
-
-                <!--Card with heading, image, and content-->
-                <div class="card">
-                    <img class="card-img-top arwin2" src="Imgs/Arwin2.jpg" alt="A puppy on the couch">
-                    <div class="card-body">
-                      <h5 class="card-title">About Arwin</h5>
-                      <p class="card-text">
-                          my name is Talia Zisman, and I just got a dog who is an Aussiedoodle named Arwin. Aussiedoodles are an Australian Shepherd and Poodle mix. Arwin is insanely smart. This page is dedicated to looking at how cute she is. If you don't love Aussiedoodles, I hope you love dogs, and if not dogs, then cats. Hopefully you love some animal, but Aussiedoodles are especially cute!
-                      </p>
-                      <p class="card-text">
-                          Arwin loves all food, but she is still learning to play with toys. She is a puppy, born June 1st 2020, so she likes to bite my legs as I walk. Still, she already knows sit and how to wait for treats. When she comes inside, she goes in to her crate because she knows she gets a piece of freeze-dried liver whenever she comes inside (gross but she loves it). Arwin is very charming and lovely, except during Puppy Witching Hour. Then, she is crazy and there is no talking sense in to her. I hope you think she's cute!
-                      </p>
-                      <p class="card-text">
-                          If you would like, you can follow Arwin on instagram by clicking here: <a href="https://www.instagram.com/arwin_the_aussiepoo/" target="_blank">@arwintheaussiepoo</a>
-                      </p>
-                    </div>
-                </div>
-
+            <div class="col-lg-10 col-md-10 col-xs-12">
+                <!--Card from bootstrap-->
+                <section class="card">
+                    <section class="card-body">
+                        <!--Image of Arwin-->
+                        <img class="arwin2" src="Imgs/Arwin2.jpg" alt="A puppy on the couch">
+                        <!--Heading-->
+                        <h4 class="card-title">About Arwin</h4>
+                        <!--Card paragraphs-->
+                        <section class="card-text">
+                            <p>
+                                My name is Talia Zisman, and I just got a dog who is an Aussiedoodle named Arwin. Aussiedoodles are an Australian Shepherd and Poodle mix. Arwin is insanely smart. This page is dedicated to looking at how cute she is. If you don't love Aussiedoodles, I hope you love dogs, and if not dogs, then cats. Hopefully you love some animal, but Aussiedoodles are especially cute!
+                            </p>
+                            <p>
+                                Arwin loves all food, but she is still learning to play with toys. She is a puppy, born June 1st 2020, so she likes to bite my legs as I walk. Still, she already knows sit and how to wait for treats. When she comes inside, she goes in to her crate because she knows she gets a piece of freeze-dried liver whenever she comes inside (gross but she loves it). Arwin is very charming and lovely, except during Puppy Witching Hour. Then, she is crazy and there is no talking sense in to her. I hope you think she's cute!
+                            </p>
+                            <p>
+                                If you would like, you can follow Arwin on instagram by clicking here: <a href="https://www.instagram.com/arwin_the_aussiepoo/" target="_blank">@arwintheaussiepoo</a>.
+                            </p>
+                        </section>
+                </section>>
             </div>
         </div>
-    </div> <br>
+    </section>
 
      <!--Footer-->
      <footer>&#169; Copyright</footer>
