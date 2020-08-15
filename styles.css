@@ -2,16 +2,17 @@ body{
     background-color: lavender;
 }
 
+/* navbar styling*/
 .navbar {
     border-bottom: 2px solid black;
-    display: flex;
-    justify-content: space-between;
 }
 
+/* navbar heading styling */
 .navbar-brand {
     font-weight: 600;
 }
 
+/* card styling */
 .card {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -19,6 +20,7 @@ body{
     padding: 20px;
 }
 
+/* About Arwin image styling */
 .arwin2 {
     float: left;
     margin: auto;
@@ -27,12 +29,14 @@ body{
     width: 14rem;
 }
 
+/*Portfolio image styling */
 .img-fluid {
-    margin-bottom: 1rem; */
+    margin-bottom: 1rem;
     height: auto;
     width: auto;
 }
 
+/* Footer styling */
 footer {
         border-top: 2px solid black;
         padding: 2rem;
