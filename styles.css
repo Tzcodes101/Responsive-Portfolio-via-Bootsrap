@@ -16,22 +16,20 @@ body{
     margin-top: 3rem;
     margin-bottom: 3rem;
     border: 1px solid black;
+    padding: 20px;
 }
 
 .arwin2 {
     float: left;
-    margin: 0 1rem 1rem 0;
+    margin: auto;
     height: 20rem;
-    width: 15rem;
+    width: 14rem;
 }
 
 .img-fluid {
-    width: 100%/9;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; */
     height: auto;
-    width: 12rem;
+    width: auto;
 }
 
 footer {
